@@ -4,6 +4,7 @@
 
 <p align="center">
 	<a href="https://npmjs.com/package/alien-signals"><img src="https://badgen.net/npm/v/alien-signals" alt="npm package"></a>
+	<a href="https://deepwiki.com/stackblitz/alien-signals"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
 # alien-signals
@@ -29,12 +30,12 @@ I spent considerable time [optimizing Vue 3.4’s reactivity system](https://git
 
 ## Other Language Implementations
 
-- **Dart:** [medz/alien-signals-dart](https://github.com/medz/alien-signals-dart) <sup>2.0.4</sup>
+- **Dart:** [medz/alien-signals-dart](https://github.com/medz/alien-signals-dart) <sup>2.0.5</sup>
+- **Lua:** [YanqingXu/alien-signals-in-lua](https://github.com/YanqingXu/alien-signals-in-lua) <sup>2.0.5</sup>
 - **Luau:** [Nicell/alien-signals-luau](https://github.com/Nicell/alien-signals-luau) <sup>1.0.13</sup>
 - **Java:** [CTRL-Neo-Studios/java-alien-signals](https://github.com/CTRL-Neo-Studios/java-alien-signals) <sup>1.0.13</sup>
 - **C#:** [CTRL-Neo-Studios/csharp-alien-signals](https://github.com/CTRL-Neo-Studios/csharp-alien-signals) <sup>1.0.13</sup>
 - **Go:** [delaneyj/alien-signals-go](https://github.com/delaneyj/alien-signals-go) <sup>1.0.7</sup>
-- **Lua:** [YanqingXu/alien-signals-in-lua](https://github.com/YanqingXu/alien-signals-in-lua) <sup>0.6.0</sup>
 
 ## Derived Projects
 
@@ -42,11 +43,14 @@ I spent considerable time [optimizing Vue 3.4’s reactivity system](https://git
 - [CCherry07/alien-deepsignals](https://github.com/CCherry07/alien-deepsignals): Use alien-signals with the interface of a plain JavaScript object
 - [hunghg255/reactjs-signal](https://github.com/hunghg255/reactjs-signal): Share Store State with Signal Pattern
 - [gn8-ai/universe-alien-signals](https://github.com/gn8-ai/universe-alien-signals): Enables simple use of the Alien Signals state management system in modern frontend frameworks
+- [WebReflection/alien-signals](https://github.com/WebReflection/alien-signals): Preact signals like API and a class based approach for easy brand check
+- [@lift-html/alien](https://github.com/JLarky/lift-html/tree/main/packages/alien): Integrating alien-signals into lift-html
 
 ## Adoption
 
 - [vuejs/core](https://github.com/vuejs/core): The core algorithm has been ported to v3.6 (PR: https://github.com/vuejs/core/pull/12349)
 - [statelyai/xstate](https://github.com/statelyai/xstate): The core algorithm has been ported to implement the atom architecture (PR: https://github.com/statelyai/xstate/pull/5250)
+- [flamrdevs/xignal](https://github.com/flamrdevs/xignal): Infrastructure for the reactive system
 - [vuejs/language-tools](https://github.com/vuejs/language-tools): Used in the language-core package for virtual code generation
 
 ## Usage
